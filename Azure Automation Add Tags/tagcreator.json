@@ -1,0 +1,27 @@
+{
+    "properties": {
+        "roleName": "Tag Creator",
+        "description": "",
+        "assignableScopes": [
+            "/providers/Microsoft.Management/managementGroups/your-managementGroup-here" 
+        ],
+        "permissions": [
+            {
+                "actions": [
+                    "Microsoft.Authorization/*/read",
+                    "Microsoft.Resources/subscriptions/resourceGroups/read",
+                    "Microsoft.Resources/subscriptions/resourceGroups/resources/read",
+                    "Microsoft.Resources/subscriptions/resources/read",
+                    "Microsoft.Resources/deployments/*",
+                    "Microsoft.Insights/alertRules/*",
+                    "Microsoft.Support/*",
+                    "Microsoft.Resources/tags/*",
+                    "Microsoft.Resources/subscriptions/resourceGroups/write"
+                ],
+                "notActions": [],
+                "dataActions": [],
+                "notDataActions": []
+            }
+        ]
+    }
+}
